@@ -1,0 +1,23 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+
+// https://gist.github.com/ijy/7399688
+{
+	"save_on_focus_lost": true,
+	"font_face": "Source Code Pro",
+	"word_wrap": true,
+    "tab_size": 4,
+    "trim_trailing_white_space_on_save": false,
+    "translate_tabs_to_spaces": true,
+    "spellcheck": true,
+    "open_files_in_new_window": false,
+    "ensure_newline_at_eof_on_save": true,
+    "highlight_modified_tabs": true,
+    "scroll_past_end": true,
+    "folder_exclude_patterns":
+    [
+        ".git",
+        ".bundle",
+        ".sass-cache"
+    ]
+}
